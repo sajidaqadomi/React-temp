@@ -1,0 +1,18 @@
+.skills-item .progress-bar{
+    background-color: var(--c-orange);
+    
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .Profile{
+        background-color: whitesmoke;
+        padding: 50px 0;
+    }
+    .profile-titel{
+        margin-bottom: 15px;
+    }
+    .skills-titel{
+        margin-top: 15px;
+    }
+ }

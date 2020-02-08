@@ -1,0 +1,23 @@
+.social-item{
+    background-color: #498cbf;
+    padding: 60px 90px !important;
+    position: relative;
+    color:white;
+}
+.social-item i{
+    position: absolute;
+    top: 50%;
+    left:40px;
+    transform: translatey(-50%);
+    display: block;
+    background-color: white;
+    color: var(--c-gray);
+    padding: 10px;
+}
+.social-item:first-of-type{
+    background-color: #3b5998;
+    
+}
+.social-item:last-of-type{
+    background-color: #cc2127;
+}

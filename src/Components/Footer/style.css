@@ -1,0 +1,9 @@
+.Footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.Footer p{
+    line-height: 40px;
+}

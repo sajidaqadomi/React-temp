@@ -1,0 +1,81 @@
+.Home{
+    padding: 100px 0;
+    background-image: url('../../images/Home/home-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+   
+   
+}
+
+.Home-Titel{
+    color:#5e5e5e;
+    font-size:60px;
+    
+}
+.Home-Details{
+    color: var( --c-orange);
+    font-size:35px;
+   
+}
+.Home-Desc{
+    color: var( --c-gray);
+    font-size:20px;
+    width: 50%;
+    line-height:1.5;
+}
+
+.Home .btn{
+    padding: 15px 10px;
+    background-color: var(--c-orange);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+ /* // Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) { 
+
+ }
+ 
+ /* // Small devices (landscape phones, less than 768px) */
+ @media (max-width: 767.98px) { 
+    .Home{
+        
+        padding: 60px 0;
+        background-position: center  ;
+        
+    }
+    
+    .Home-Titel{
+        color:#5e5e5e;
+        font-size:40px;
+        
+    }
+    .Home-Details{
+        
+        font-size:25px;
+       
+    }
+    .Home-Desc{
+       
+        font-size:15px;
+        width: 100%;
+        line-height:1.4;
+    }
+    .Home .btn{
+        padding: 12px 7px;
+        
+        font-size: 15px;
+        
+    }
+
+ }
+ 
+ /* // Medium devices (tablets, less than 992px) */
+ @media (max-width: 991.98px) { 
+
+  }
+ 
+ /* // Large devices (desktops, less than 1200px) */
+ @media (max-width: 1199.98px) {  }
